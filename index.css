@@ -1,0 +1,237 @@
+* {
+  overflow-x: hidden;
+  margin: 0px;
+}
+section > header {
+  height: 50px;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+  box-shadow: 0px 5px 15px black;
+  background-color: rgb(109, 99, 73);
+}
+.main-logo {
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  span {
+    color: rgb(255, 187, 0);
+  }
+  font-size: 2.2rem;
+}
+section {
+  width: 100%;
+  background-color: gray;
+  min-height: 300vh;
+  /* max-height: ; */
+}
+header > .nav-items {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.3rem;
+  padding: 0px 10px;
+  /* box-shadow: ; */
+
+  a {
+    text-decoration-line: none;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    color: white;
+  }
+  a:hover {
+    text-decoration-line: underline;
+    color: rgb(255, 187, 0);
+  }
+}
+.container {
+  /* min-height: 100vh; */
+  width: 100%;
+  border: white solid 1px;
+}
+
+.home {
+  /* margin-top: 50px; */
+  height: auto;
+  background-color: rgb(73, 64, 24);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home .left {
+  padding-top: 50px;
+  width: 50%;
+  height: 100vh;
+  background-color: rgb(58, 43, 43);
+}
+.home > .right {
+  padding-top: 50px;
+  width: 50%;
+  height: 100vh;
+  background-color: rgb(84, 77, 68);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-pic {
+  background-image: url(/WhatsApp\ Image\ 2025-09-16\ at\ 22.42.44_fb1cfb66.jpg);
+
+  border: 2px solid rgb(58, 43, 43);
+  background-size: 120%;
+  background-position-x: -70px;
+  background-position-y: -40px;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  background-color: rgb(186, 135, 69);
+}
+.para {
+  margin-top: 50px;
+  text-align: justify;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+.project {
+  height: 950px;
+  background-color: rgb(58, 43, 43);
+  padding: 20px 0px;
+  h2 {
+    font-size: 4rem;
+    color: rgb(232, 197, 151);
+    text-decoration: underline 2px antiquewhite;
+  }
+}
+
+.project > .all-projects {
+  position: relative;
+  top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  z-index: 0;
+
+  flex-wrap: wrap;
+}
+
+.all-projects > .card {
+  /* height: 300px; */
+  width: 550px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: antiquewhite;
+}
+.card:hover {
+  transform: scale(1.1);
+  transition: 500ms;
+}
+
+.card_details {
+  color: rgb(255, 255, 255);
+  /* top: 0; */
+}
+
+.all-projects img {
+  width: 100%;
+  height: 250px;
+}
+
+.services,
+.contact,
+.resume {
+  background-color: rgb(58, 43, 43);
+  padding: 30px 20px;
+  color: antiquewhite;
+}
+
+.services h2,
+.contact h2,
+.resume h2 {
+  font-size: 3rem;
+  color: rgb(232, 197, 151);
+  text-decoration: underline 2px antiquewhite;
+  margin-bottom: 20px;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background-color: rgb(84, 77, 68);
+  padding: 10px;
+  height: 100px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px black;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: rgb(255, 187, 0);
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: rgb(232, 197, 151);
+}
+
+.download-btn {
+  /* margin-top: 10px; */
+  padding: 10px 20px;
+  background-color: rgb(255, 187, 0);
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.resume-download{
+  margin-top: 20px;
+  
+}
+
+.download-btn:hover {
+  background-color: rgb(232, 197, 151);
+}
