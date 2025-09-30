@@ -82,7 +82,7 @@ header > .nav-items {
   justify-content: center;
 }
 .profile-pic {
-  background-image: url(/WhatsApp\ Image\ 2025-09-16\ at\ 22.42.44_fb1cfb66.jpg);
+  background-image: url(/profilepic.jpg);
 
   border: 2px solid rgb(58, 43, 43);
   background-size: 120%;
@@ -238,4 +238,5 @@ header > .nav-items {
 .download-btn:hover {
   background-color: rgb(232, 197, 151);
 }
+
 
