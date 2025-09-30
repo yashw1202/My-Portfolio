@@ -2,6 +2,9 @@
   overflow-x: hidden;
   margin: 0px;
 }
+html {
+  scroll-behavior: smooth;
+}
 section > header {
   height: 50px;
   width: 100%;
@@ -235,3 +238,4 @@ header > .nav-items {
 .download-btn:hover {
   background-color: rgb(232, 197, 151);
 }
+
